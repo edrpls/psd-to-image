@@ -1,0 +1,61 @@
+{
+    "groupId": null,
+    "name": "Group_5",
+    "width": 1463,
+    "height": 188,
+    "x": 0,
+    "y": 0,
+    "blendMode": "normal",
+    "opacity": 255,
+    "id": "YZTzv",
+    "layers": [
+        {
+            "groupId": "YZTzv",
+            "name": "background yellow copy 11",
+            "width": 1463,
+            "height": 188,
+            "x": 0,
+            "y": 0,
+            "blendMode": "normal",
+            "opacity": 255,
+            "path": "./fake/path/image.png"
+        }
+    ],
+    "groups": [
+        {
+            "groupId": "YZTzv",
+            "name": "TestGroup",
+            "width": 197,
+            "height": 142,
+            "x": 1211,
+            "y": 20,
+            "blendMode": "normal",
+            "opacity": 255,
+            "id": "grrSN",
+            "layers": [
+                {
+                    "groupId": "grrSN",
+                    "name": "ADD A LITTLE GOOD™",
+                    "width": 189,
+                    "height": 14,
+                    "x": 6,
+                    "y": 128,
+                    "blendMode": "normal",
+                    "opacity": 255,
+                    "path": "./test/assets/merge_img_1.png"
+                },
+                {
+                    "groupId": "grrSN",
+                    "name": "Layer 30",
+                    "width": 197,
+                    "height": 107,
+                    "x": 0,
+                    "y": 0,
+                    "blendMode": "normal",
+                    "opacity": 255,
+                    "path": "./test/assets/merge_img_2.png"
+                }
+            ]
+        }
+    ]
+}

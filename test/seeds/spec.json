@@ -1,0 +1,102 @@
+{
+    "name": "In-Image Animated",
+    "overlapAssetHeight": 70,
+    "height": 100,
+    "showButtons": null,
+    "Breakpoints": [
+        {
+            "id": 14,
+            "name": "Narrow",
+            "width": 300,
+            "AssetDefaults": [
+                {
+                    "id": 52,
+                    "name": "logo",
+                    "width": 100,
+                    "height": null,
+                    "originId": 0,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 14
+                },
+                {
+                    "id": 54,
+                    "name": "tagline",
+                    "width": 200,
+                    "height": 35,
+                    "originId": 2,
+                    "x": 0,
+                    "y": 35,
+                    "SpecBreakpointId": 14
+                },
+                {
+                    "id": 56,
+                    "name": "cta",
+                    "width": 200,
+                    "height": 35,
+                    "originId": 2,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 14
+                },
+                {
+                    "id": 58,
+                    "name": "other",
+                    "width": 300,
+                    "height": null,
+                    "originId": 1,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 14
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Normal",
+            "width": 450,
+            "AssetDefaults": [
+                {
+                    "id": 44,
+                    "name": "logo",
+                    "width": 100,
+                    "height": null,
+                    "originId": 0,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 12
+                },
+                {
+                    "id": 46,
+                    "name": "tagline",
+                    "width": 200,
+                    "height": null,
+                    "originId": 2,
+                    "x": 0,
+                    "y": 35,
+                    "SpecBreakpointId": 12
+                },
+                {
+                    "id": 48,
+                    "name": "cta",
+                    "width": 200,
+                    "height": null,
+                    "originId": 2,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 12
+                },
+                {
+                    "id": 50,
+                    "name": "other",
+                    "width": 150,
+                    "height": null,
+                    "originId": 1,
+                    "x": 0,
+                    "y": 0,
+                    "SpecBreakpointId": 12
+                }
+            ]
+        }
+    ]
+}
