@@ -28,10 +28,6 @@ module.exports = (router, app) => {
         const filePath = file.path;
         const fileName = req.body.fileName || file.originalName;
         if (!file) return next({message: 'You need to upload a PSD file', status: 400});
-        const newPsd = {
-            AccountId: req.user.accountId,
-            title: fileName
-        };
         const psdIsInvalid = file => {
             return file.mimetype !== 'image/vnd.adobe.photoshop' &&
                 (file.mimetype !== 'application/octet-stream' &&

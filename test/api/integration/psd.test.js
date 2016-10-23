@@ -1,5 +1,6 @@
 import chai from 'chai';
 import chaiHttp from 'chai-http';
+chai.use(chaiHttp);
 
 import { app } from '../../../api/server';
 
@@ -30,6 +31,7 @@ describe('PSDs API', function () {
                 createdPsd = res.body.zipName;
             })
             .catch(function (err) {
+                console.log(err);
                 throw err;
             });
     });
@@ -41,6 +43,7 @@ describe('PSDs API', function () {
                 res.status.should.equal(200);
             })
             .catch(function (err) {
+                console.log(err);
                 throw err;
             });
     });

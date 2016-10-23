@@ -11,7 +11,7 @@ const express = require('express'); // Requires
 const busboy = require('connect-busboy');
 const https = require('https');
 const bodyParser = require('body-parser');
-const app = express();
+const app = exports.app = express();
 const router = express.Router();
 const pug = require('pug');
 const handleErrors = require('./helpers/handle-errors');
