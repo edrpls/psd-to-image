@@ -20,7 +20,7 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: [
         'react-hot-loader/patch',
-        'webpack-dev-server/client?http://0.0.0.0:8001', // WebpackDevServer host and port
+        'webpack-dev-server/client?http://0.0.0.0:8000', // WebpackDevServer host and port
         'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
         './app/components/main.js'
     ],
@@ -36,7 +36,7 @@ module.exports = {
         hot: true,
         proxy: {
             '/api*': {
-                target: 'http://0.0.0.0:3000',
+                target: 'http://0.0.0.0:3001',
                 secure: false
             }
         },

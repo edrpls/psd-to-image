@@ -5,7 +5,8 @@ require('babel-core/register');
 require('babel-polyfill');
 
 const host = process.env.HOST || 'psd.dev.gumgum.com'; // Defaults
-const port = process.env.PORT || 1234;
+//const port = process.env.PORT || 3001;
+const port = 3001;
 const env = process.env.NODE_ENV || 'development';
 const express = require('express'); // Requires
 const busboy = require('connect-busboy');
@@ -18,8 +19,6 @@ const handleErrors = require('./helpers/handle-errors');
 const fs = require('fs');
 const filePathExists = require('./helpers/file-exists').default;
 const tmpDir = './tmp';
-
-export default app;
 
 filePathExists(tmpDir)
     .then(exists => {
@@ -59,3 +58,4 @@ app.use('/api', router);
 
 // Catch and log 500 errors
 app.use(handleErrors);
+app.listen(port);

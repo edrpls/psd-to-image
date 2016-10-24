@@ -39,7 +39,7 @@ module.exports = (router, app) => {
         }
         const assign = (...args) => Object.assign({}, ...args);
         getZippedPngsFromPsd(filePath)
-            .then(zipName => res.json({zipName}))
+            .then(zipName => res.json({psd: {zipName, title: fileName}}))
             .catch(next);
     });
 

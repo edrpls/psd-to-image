@@ -1,0 +1,52 @@
+// COLORS
+// light red
+$secondaryColor: #ff7b5d;
+
+.gg-theme-dkblue {
+    a, a:hover, a:link, a:active, a:visited {
+        text-decoration: none;
+        color: #88888C;
+    }
+    .gds-text--link, .gds-text--link:hover, .gds-text--link:active {
+        color: #88888C;
+    }
+    a:-webkit-any-link:active {
+        text-decoration: none;
+        color: #88888C;
+    }
+    a.gds-button, a:link.gds-button, a:active.gds-button, a:visited.gds-button {
+        color: white;
+    }
+    .gds-page-header__primary-nav {
+        display: inline-block;
+    }
+    .gds-page-header__page-name:after {
+        content: '';
+    }
+    .gds-page-header__page-name {
+        transition: none;
+    }
+    .gds-nav-tabs, .gds-nav-tabs {
+        border-bottom: none;
+    }
+    .ab-has-page-header {
+        padding-top: 3.5rem !important;
+    }
+
+    .gds-page-header__product-bar {
+        overflow: visible;
+    }
+
+    .gds-button--sm {
+        font-size: 1rem;
+    }
+
+    // FORMS
+    .gds-form-group__text-input, .gds-form-group__text-area-input {
+        box-shadow: inset 0 -.155rem 0px 0px #b7b6b6,inset 0 0 0 1px rgba(0,0,0,0.2);
+    }
+
+    .gds-form-group__text-input:focus, .gds-form-group__text-input:hover, .gds-form-group__text-area-input:focus, .gds-form-group__text-area-input:hover {
+        box-shadow: inset 0 -.155rem 0 0 #33b9d9,inset 0 0 0 1px rgba(0,167,207,0.2);
+    }
+}

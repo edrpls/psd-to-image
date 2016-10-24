@@ -1,0 +1,33 @@
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropFade-enter {
+    animation-name: fadeInDown;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.dropFade-leave {
+  animation-name: fadeOutUp;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}

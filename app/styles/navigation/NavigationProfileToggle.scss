@@ -1,0 +1,72 @@
+@import '../common/variables';
+
+.NavigationProfileToggle {
+    display: inline-flex;
+    position: relative;
+}
+
+.profilePic {
+    position: inline-flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.triangle {
+    border: 10px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 76px;
+    bottom: -5px;
+    z-index: 11;
+}
+
+.Notification {
+    .fa-bell, .fa-bell-o {
+        margin-right: 15px;
+        padding-bottom: 2px;
+    }
+    .fa-bell {
+        animation: fa-shake 0.2s 4 steps(3);
+        color: $blue;
+    }
+}
+
+.NotificationDrawer {
+    list-style: none;
+    margin-left: -175px;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0px 2px 5px 0px rgba(34, 32, 32, 0.3);
+    li {
+        display: block;
+        padding: 10px;
+        &.unread {
+            background: #f6f6f7
+        }
+        &:hover{
+            background: #eee
+        }
+    }
+    li + li {
+        border-top: 1px solid #ddd;
+    }
+}
+
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
